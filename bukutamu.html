@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebsitePribadi | Profile</title>
+    <link rel="stylesheet" href="bukutamu.css">
+    <link rel="icon" href="IMG/pasfoto.jpg">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <p>WEBSITE <span>PRIBADI</span></p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="navigasi">
+                <div class="navigasi-list">
+                    <div class="navigasi-header"><p>WEBSITE <span>PRIBADI</span></p></div>
+                    <ul>
+                        <li><a href="index.html"><i data-feather="home"></i>    Home</a></li>
+                        <li><a href="profil.html" ><i data-feather="user"></i>    Profile</a></li>
+                        <li><a href="bukutamu.html" ><i data-feather="book-open"></i>    Guest Book</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="konten">
+                <div class="container-konten">
+                    <div class="form-konten">
+                        <form action="GET">
+                            <div class="form-header">
+                                <h1> <i data-feather="book-open"></i>    Guest Book</h1>
+                            </div>
+                            <hr>
+                            <div class="form-input">
+                            <label for="Nama">Nama</label><br>
+                            <input type="text" name="nama" id="nama" >
+                            </div>
+                            <div class="form-input">
+                                <label for="email">Email</label><br>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="form-input">
+                                <label for="pesan">Pesan</label><br>
+                                <textarea name="pesan" id="pesan" cols="20" rows="5"></textarea>
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit">Kirim</button>
+                                </div>
+                                <hr>
+                        </form>
+                    </div>
+                <!-- <div class="konten-img">
+                    <img src="img/pasfoto.jpg" alt="" width="300px" height="300px">
+                </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="footer"><p>&copy;2411500048_ErickOktavianto_TI1B_UTS Pemograman Web</p></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+
+        var typed = new Typed('#nama', {
+        strings: ['Masukkan Nama Kamu'],
+        typeSpeed: 100,
+        attr: 'placeholder',
+        bindInputFocusEvents: true
+
+        });
+
+        var typed = new Typed('#email', {
+        strings: ['Masukkan Email Kamu'],
+        typeSpeed: 100,
+        attr: 'placeholder',
+        bindInputFocusEvents: true
+        });
+
+        var typed = new Typed('#pesan', {
+        strings: ['Masukkan Pesan Kamu'],
+        typeSpeed: 100,
+        attr: 'placeholder',
+        showCursor : false,
+        bindInputFocusEvents: true
+        });
+
+
+        feather.replace()
+    </script>
+</body>
+</html>

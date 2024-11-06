@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebsitePribadi | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMG/pasfoto.jpg">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <p>WEBSITE <span>PRIBADI</span></p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="navigasi">
+
+                <div class="navigasi-list">
+                    <div class="navigasi-header"><p>WEBSITE <span>PRIBADI</span></p></div>
+                    <ul>
+                        <li><a href="index.html"><i data-feather="home"></i>    Home</a></li>
+                        <li><a href="profil.html" ><i data-feather="user"></i>    Profile</a></li>
+                        <li><a href="bukutamu.html" ><i data-feather="book-open"></i>    Guest Book</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="konten">
+                <div class="container-konten">
+                <div class="konten-header">
+                    <h1>Hi, I'm <span id="element"></span></h1>
+                </div>
+                <div class="konten-isi">
+                    <p>Selamat datang di website pribadi saya <br>
+                    Saya suka membuat website dan menjadi front-end dari sebuah website. <br>
+                    banyak hal yang saya suka namun coding menjadi pilihan utama saya untuk sekarang <br>
+                    beberapa website sudah saya buat antaranya <a href="https://ricksocks.site" target="_blank">website penjualan barang.</a></p>
+                </div>
+                <div class="konten-img">
+                    <img src="img/pasfoto.jpg" alt="" width="300px" height="320px">
+                </div>
+                    <div class="social-media">
+                       <a href="https://www.youtube.com/@erickoktavianto4506" target="_blank"><i class="youtube" data-feather="youtube"></i></a>
+                       <a href="https://wa.me/6281377786476" target="_blank"><i class="phone" data-feather="phone"></i></a>
+                        <a href=https://www.instagram.com/rick_okt/ target="_blank"><i class="instagram" data-feather="instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="footer"><p>&copy;2411500048_ErickOktavianto_TI1B_UTS Pemograman Web</p></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Erick Oktavianto.','18 Years Old.','Atma Luhur Student.'],
+        typeSpeed: 100,
+        backSpeed: 50,
+        showCursor: true,
+        cursorChar: '|',
+        autoInsertCss: true,
+        loop: true
+        });
+
+        feather.replace()
+      
+    </script>
+</body>
+</html>
